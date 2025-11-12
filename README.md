@@ -11,10 +11,6 @@ A compact, hands-on project for learning systems programming by building a Redis
 - [Why C/C++?](#why-cc)
 - [Who should do this](#who-should-do-this)
 - [Benefits](#benefits)
-- [Getting started](#getting-started)
-- [Recommended prerequisites](#recommended-prerequisites)
-- [Next steps](#next-steps)
-- [Contributing](#contributing)
 
 ## About
 
@@ -37,39 +33,11 @@ Implementing the core yourself gives deep understanding of design trade-offs, pe
 
 C/C++ provide the low-level control required for high-performance software. The code in this project is primarily plain C with minimal, optional C++ features so it stays readable even if you’re new to these languages. Higher-level languages (Go, Python, JavaScript) can teach parts of the stack but often hide the low-level details this project aims to surface.
 
-## Who should do this
-
-- Students and engineers seeking a substantive systems project
-- Candidates preparing for systems-level interviews
-- Curious developers who want to understand how infrastructure works under the hood
-
 ## Benefits
 
 - Stronger systems and debugging skills
 - Better design decisions for performance-critical code
 - A concrete portfolio project demonstrating low-level engineering ability
-
-## Getting started
-
-1. Explore the repository lessons and source files to follow a step-by-step implementation.
-2. Read the code and run examples (if present) to see data structures and networking in action.
-
-If you’d like, I can add an explicit quick-start section with build and run commands once the repository contains the implementation files.
-
-## Recommended prerequisites
-
-- Basic familiarity with C/C++ and compiling C projects
-- Comfort reading C-style code and simple Makefiles or build scripts
-- Sockets/networking knowledge is helpful but not strictly required — the lessons will walk through networking basics
-
-## Next steps
-
-- Read the lessons and walkthroughs included in this repo.
-- Start with the simplest components (a single-threaded server and an in-memory map), then move to richer data structures and concurrency.
-
-## Contributing
-
-Contributions are welcome. Small, focused pull requests (fixes, documentation, small implementations) are easiest to review. If you want to work on a larger piece, open an issue first to discuss the design.
 
 ---
 
