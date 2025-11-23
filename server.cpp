@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <errno.h>
 #include <unistd.h>
+#include <fcntl.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
 #include <poll.h>
@@ -141,7 +142,7 @@ static void handle_read(Conn *conn) {
     // 3. Try to parse the accumulated buffer.
     // 4. Process the parsed message.
     // 5. Remove the message from `Conn::incoming`.
-    try_one_request(conn)
+    try_one_request(conn);
     // ...
 }
 
